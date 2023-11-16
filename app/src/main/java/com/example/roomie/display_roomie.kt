@@ -15,6 +15,7 @@ class display_roomie : AppCompatActivity() {
     private  lateinit var  send : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display_roomie)
 
