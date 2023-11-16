@@ -10,9 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         val signUpBtn = findViewById<Button>(R.id.sign_up)
         val loginBtn = findViewById<Button>(R.id.login)
          val adminBtn = findViewById<Button>(R.id.btnAdmin)
+
 
 
         signUpBtn.setOnClickListener {
