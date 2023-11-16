@@ -10,6 +10,7 @@ import com.example.roomie.LocalDB.LocationsDB
 import java.util.*
 
 class location : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_location)
