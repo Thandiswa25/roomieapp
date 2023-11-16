@@ -18,6 +18,7 @@ class personal_details : AppCompatActivity() {
     private lateinit var refernce : DatabaseReference
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_personal_details)
